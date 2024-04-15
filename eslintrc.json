@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2022": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended"],
+  "parserOptions": { "sourceType": "module", "ecmaVersion": 2022 },
+  "rules": {
+    "no-unused-vars": "warn",
+    "semi": ["warn", "always"],
+    "prefer-const": "warn",
+    "indent": ["warn", 2],
+    "quotes": ["warn", "single"],
+    "no-console": "warn",
+    "space-infix-ops": "warn",
+    "eqeqeq": ["error", "always"],
+    "complexity": ["warn", { "max": 10 }],
+    "object-curly-spacing": "warn",
+    "array-bracket-spacing": "warn"
+  }
+}

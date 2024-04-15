@@ -1,0 +1,15 @@
+{
+  "name": "leetcode-solutions",
+  "version": "1.0.0",
+  "description": "Solutions to LeetCode coding problems in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  }
+}
